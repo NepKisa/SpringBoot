@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "mycar",
+      "type": "com.neptune.springboot.bean.Car",
+      "sourceType": "com.neptune.springboot.bean.Car"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mycar.brand",
+      "type": "java.lang.String",
+      "sourceType": "com.neptune.springboot.bean.Car"
+    },
+    {
+      "name": "mycar.price",
+      "type": "java.lang.Integer",
+      "sourceType": "com.neptune.springboot.bean.Car"
+    }
+  ],
+  "hints": []
+}
