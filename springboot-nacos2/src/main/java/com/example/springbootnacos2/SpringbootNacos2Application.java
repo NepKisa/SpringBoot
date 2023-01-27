@@ -14,4 +14,6 @@ public class SpringbootNacos2Application {
         SpringApplication.run(SpringbootNacos2Application.class, args);
     }
 
+
+
 }

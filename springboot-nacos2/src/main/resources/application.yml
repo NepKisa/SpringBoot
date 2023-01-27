@@ -10,8 +10,11 @@ spring:
       password: nacos
       discovery:
         register-enabled: false #默认为true，只订阅，不注册自己则为false
+    openfeign:
+      httpclient:
+        ok-http:
+          read-timeout:
 
 #消费者将要去访问的微服务名称(注册成功进nacos的微服务提供者)
 service-url:
   nacos-user-service: http://nacos-payment-provider
-
