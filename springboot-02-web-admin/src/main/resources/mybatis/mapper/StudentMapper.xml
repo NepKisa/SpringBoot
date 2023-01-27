@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.neptune.springboot02webadmin.mapper.StudentMapper">
+    <select id="selectById" resultType="com.neptune.springboot02webadmin.bean.Student">
+        select *
+        from student
+        where id = #{id};
+    </select>
+    <!--useGeneratedKeys="true" keyProperty="id"-->
+<!--    <insert id="insert">-->
+<!--        /*反引号可以避免与MySQL关键字冲突*/-->
+<!--        insert into student (`id`,`name`,`age`) values (#{id},#{name},#{age})-->
+<!--    </insert>-->
+</mapper>

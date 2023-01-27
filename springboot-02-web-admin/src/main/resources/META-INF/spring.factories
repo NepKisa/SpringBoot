@@ -1,0 +1,8 @@
+org.springframework.context.ApplicationContextInitializer=\
+  com.neptune.springboot02webadmin.listener.MyApplicationContextInitializer
+
+org.springframework.context.ApplicationListener=\
+  com.neptune.springboot02webadmin.listener.MyApplicationListener
+
+org.springframework.boot.SpringApplicationRunListener=\
+  com.neptune.springboot02webadmin.listener.MySpringApplicationRunListener
